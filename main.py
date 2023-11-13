@@ -3,7 +3,6 @@ import streamlit as st
 
 
 
-your_openai_key = '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'
 with st.sidebar:
     your_openai_key = st.text_input('Enter API Key', type="password")
 
